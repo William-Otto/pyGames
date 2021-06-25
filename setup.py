@@ -5,7 +5,7 @@ setup(
     options={
         "build_exe": {
             "packages": ["pygame"],
-            "include_files":["hit_or_fail", "images"]
+            "include_files":["hit_or_fail", "images", "carinhas.py", "imagens.py"]
         }},
     executables= [Executable (script="game.py")],
 )
